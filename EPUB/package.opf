@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="idpub"
+         xmlns:epub="http://www.idpf.org/2007/ops">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+        <dc:language>hr</dc:language>
+
+        <dc:title id="naslov">Ježeva kućica</dc:title>
+        <meta refines="#naslov" property="title-type">main</meta>
+
+        <meta property="dcterms:modified">2022-06-13T11:00:00Z</meta>
+
+        <dc:identifier id="idpub">urn:uuid:16c473c5-351a-4bdb-9dac-c7c900bb72a2</dc:identifier>
+
+        <dc:description id="opis">život Ježurke Ježića i ostalih stanovnika šume</dc:description>
+
+        <dc:creator id="author">Branko Čopić</dc:creator>
+        <meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+        <meta property="file-as" refines="#author">Čopić, Branko</meta>
+
+        <dc:contributor id="editor">Ana Kulušić</dc:contributor>
+        <meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
+        <meta property="file-as" refines="#editor">Kulušić, Ana</meta>
+
+        <dc:creator id="illustrator">Vlado Jakelić</dc:creator>
+        <meta refines="#illustrator" property="role" scheme="marc:relators">ill</meta>
+        <meta property="file-as" refines="#illustrator">Jakelić, Vlado</meta>
+
+        <dc:date>1982</dc:date>
+
+        <dc:publisher id="publisher">Mladost, Zagreb</dc:publisher>
+
+        <dc:subject id="subject">JUVENILE FICTION / Action &amp; Adventure / General</dc:subject>
+        <meta refines="#subject" property="authority">BISAC</meta>
+        <meta refines="#subject" property="term">JUV001000</meta>
+
+        <meta property='media:duration' refines='#lijinoPismoAudioSmil'>0:01:08.250</meta>
+        <meta property="media:duration">0:01:08.250</meta>
+
+        <meta property="media:active-class">-epub-media-overlay-active</meta>
+        <meta property="media:playback-active-class">-epub-media-overlay-playing</meta>
+
+    </metadata>
+    <manifest>
+            <item id="naslovnica" href="xhtml/naslovnica.xhtml" media-type="application/xhtml+xml"/> 
+            <item id="page1" href="xhtml/prva.xhtml" media-type="application/xhtml+xml"/>
+            <item id="chapter_02" href="xhtml/lijinoPismo.xhtml" media-type="application/xhtml+xml"  media-overlay="lijinoPismoAudioSmil"/>
+            <item id="chapter_03" href="xhtml/kodLijineKuce.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+            <item id="chapter_04" href="xhtml/noc.xhtml" media-type="application/xhtml+xml"/>
+            <item id="chapter_05" href="xhtml/rastanak.xhtml" media-type="application/xhtml+xml"/>
+            <item id="chapter_06" href="xhtml/potjera.xhtml" media-type="application/xhtml+xml"/>
+            <item id="chapter_07" href="xhtml/predJezevomKucicom.xhtml" media-type="application/xhtml+xml"/>
+            <item id="chapter_08" href="xhtml/triGalamdzije.xhtml" media-type="application/xhtml+xml"/>
+            <item id="chapter_09" href="xhtml/jezevOdgovor.xhtml" media-type="application/xhtml+xml"/>
+            <item id="chapter_10" href="xhtml/kraj.xhtml" media-type="application/xhtml+xml"/>
+            <item id="copyright" href="xhtml/zadnja.xhtml" media-type="application/xhtml+xml"/>
+            <item id="videoStranica" href="xhtml/video.xhtml" media-type="application/xhtml+xml" properties="remote-resources"/>
+            <item id="navdoc" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+
+            <item id="slavniLovac" href="slike/slavniLovac.jpg" media-type="image/jpeg"/>
+            <item id="postar_i_zec" href="slike/postarIzec.jpg" media-type="image/jpeg"/>
+            <item id="naslovnicaslika" href="slike/naslovnica.jpg" media-type="image/jpeg" properties="cover-image"/>
+            <item id="pismo" href="slike/pismo.jpg" media-type="image/jpeg"/>
+            <item id="kodLijineKuce" href="slike/kodLijineKuce.jpg" media-type="image/jpeg"/>
+            <item id="rucak" href="slike/rucak.jpg" media-type="image/jpeg"/>
+            <item id="videoPoster" href="slike/video.jpg" media-type="image/jpeg"/>
+            <item id="noc" href="slike/noc.jpg" media-type="image/jpeg"/>
+            <item id="sova" href="slike/sova.jpg" media-type="image/jpeg"/>
+            <item id="rastanak" href="slike/rastanak.jpg" media-type="image/jpeg"/>
+            <item id="vuk" href="slike/vuk.jpg" media-type="image/jpeg"/>
+            <item id="medo" href="slike/medo.jpg" media-type="image/jpeg"/>
+            <item id="divlja_svinja" href="slike/divljaSvinja.jpg" media-type="image/jpeg"/>
+            <item id="predJezevomKucicom" href="slike/predJezevomKucicom.jpg" media-type="image/jpeg"/>
+            <item id="Tri_galamdjije" href="slike/triGalamdjije.jpg" media-type="image/jpeg"/> 
+            <item id="jezevOdgovor" href="slike/jezevOdgovor.jpg" media-type="image/jpeg"/>
+            <item id="lisicaKlisnu" href="slike/lisicaKlisnu.jpg" media-type="image/jpeg"/>
+            <item id="kraj" href="slike/kraj.jpg" media-type="image/jpeg"/> 
+            <item id="kraj2" href="slike/kraj2.jpg" media-type="image/jpeg"/>
+            <item id="zadnja" href="slike/zadnja.jpg" media-type="image/jpeg" fallback="zadnjasvg"/>
+            <item id="zdravica" href="slike/zdravica.png" media-type="image/png"/>
+            
+            <item id="video01" href="http://tagrella.com/tvz/JezevaKucica.mp4" media-type="audio/mp4"/>
+            <item id="video" href="video/video.webm" media-type="video/webm"/>
+
+            <item id="cssAll" href="css/style.css" media-type="text/css"/>
+
+            <item id="diavlobold" href="font/diavlo_bold_ii_37-webfont.woff2" media-type="font/woff2"/>
+            <item id="diavlomedium" href="font/diavlo_medium_ii_37-webfont.woff2" media-type="font/woff2"/>
+            <item id="hackbold" href="font/hack-bold-webfont.woff2" media-type="font/woff2"/>
+            <item id="hackregular" href="font/hack-regular-webfont.woff2" media-type="font/woff2"/>
+
+            <item id="chapter_01" href="xhtml/slavniLovacSVG.svg" media-type="image/svg+xml"/>
+            <item id="zadnjasvg" href="xhtml/zadnja.svg" media-type="image/svg+xml"/>
+
+            <item id="lijinoPismoAudioSmil" href="audio/audio.smil" media-type="application/smil+xml"/>
+            <item id="lijinoPismoAudio" href="audio/lijinoPismo.mp3" media-type="audio/mpeg"/>
+    </manifest>
+    <spine>
+            <itemref idref="naslovnica"/>
+            <itemref idref="page1"/>
+            <itemref idref="navdoc"/>
+            <itemref idref="chapter_01"/>
+            <itemref idref="chapter_02"/>
+            <itemref idref="chapter_03"/>
+            <itemref idref="chapter_04"/>
+            <itemref idref="chapter_05"/>
+            <itemref idref="chapter_06"/>
+            <itemref idref="chapter_07"/>
+            <itemref idref="chapter_08"/>
+            <itemref idref="chapter_09"/>
+            <itemref idref="chapter_10"/>
+            <itemref idref="videoStranica"/> 
+            <itemref idref="copyright"/>
+            <itemref idref="zadnja"/>
+    </spine>
+</package>

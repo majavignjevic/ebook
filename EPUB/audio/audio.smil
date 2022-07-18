@@ -1,0 +1,150 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+    <body>
+        <seq epub:textref="../xhtml/lijinoPismo.xhtml#lijinoPismoAudioSmil" epub:type="bodymatter chapter" id="seq01">
+            <par id="p001">
+                <text src="../xhtml/lijinoPismo.xhtml#f001"/>
+                <audio clipBegin="0:00:00.000" clipEnd="0:00:02.040" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p002">
+                <text src="../xhtml/lijinoPismo.xhtml#f002"/>
+                <audio clipBegin="0:00:02.040" clipEnd="0:00:04.040" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p003">
+                <text src="../xhtml/lijinoPismo.xhtml#f003"/>
+                <audio clipBegin="0:00:04.040" clipEnd="0:00:05.060" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p004">
+                <text src="../xhtml/lijinoPismo.xhtml#f004"/>
+                <audio clipBegin="0:00:05.060" clipEnd="0:00:06.030" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p005">
+                <text src="../xhtml/lijinoPismo.xhtml#f005"/>
+                <audio clipBegin="0:00:06.030" clipEnd="0:00:08.020" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p006">
+                <text src="../xhtml/lijinoPismo.xhtml#f006"/>
+                <audio clipBegin="0:00:08.020" clipEnd="0:00:10.090" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p007">
+                <text src="../xhtml/lijinoPismo.xhtml#f007"/>
+                <audio clipBegin="0:00:10.090" clipEnd="0:00:11.220" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p008">
+                <text src="../xhtml/lijinoPismo.xhtml#f008"/>
+                <audio clipBegin="0:00:11.220" clipEnd="0:00:13.190" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p009">
+                <text src="../xhtml/lijinoPismo.xhtml#f009"/>
+                <audio clipBegin="0:00:13.190" clipEnd="0:00:15.230" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p010">
+                <text src="../xhtml/lijinoPismo.xhtml#f010"/>
+                <audio clipBegin="0:00:15.230" clipEnd="0:00:17.180" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p011">
+                <text src="../xhtml/lijinoPismo.xhtml#f011"/>
+                <audio clipBegin="0:00:17.180" clipEnd="0:00:20.000" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p012">
+                <text src="../xhtml/lijinoPismo.xhtml#f012"/>
+                <audio clipBegin="0:00:20.000" clipEnd="0:00:20.250" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p013">
+                <text src="../xhtml/lijinoPismo.xhtml#f013"/>
+                <audio clipBegin="0:00:20.250" clipEnd="0:00:21.210" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p014">
+                <text src="../xhtml/lijinoPismo.xhtml#f014"/>
+                <audio clipBegin="0:00:21.210" clipEnd="0:00:25.200" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p015">
+                <text src="../xhtml/lijinoPismo.xhtml#f015"/>
+                <audio clipBegin="0:00:25.200" clipEnd="0:00:31.010" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p016">
+                <text src="../xhtml/lijinoPismo.xhtml#f016"/>
+                <audio clipBegin="0:00:31.010" clipEnd="0:00:31.260" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p017">
+                <text src="../xhtml/lijinoPismo.xhtml#f017"/>
+                <audio clipBegin="0:00:31.260" clipEnd="0:00:32.200" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p018">
+                <text src="../xhtml/lijinoPismo.xhtml#f018"/>
+                <audio clipBegin="0:00:32.200" clipEnd="0:00:34.180" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p019">
+                <text src="../xhtml/lijinoPismo.xhtml#f019"/>
+                <audio clipBegin="0:00:34.180" clipEnd="0:00:36.100" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p020">
+                <text src="../xhtml/lijinoPismo.xhtml#f020"/>
+                <audio clipBegin="0:00:36.100" clipEnd="0:00:38.030" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p021">
+                <text src="../xhtml/lijinoPismo.xhtml#f021"/>
+                <audio clipBegin="0:00:38.030" clipEnd="0:00:39.240" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p022">
+                <text src="../xhtml/lijinoPismo.xhtml#f022"/>
+                <audio clipBegin="0:00:39.240" clipEnd="0:00:41.160" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p023">
+                <text src="../xhtml/lijinoPismo.xhtml#f023"/>
+                <audio clipBegin="0:00:41.160" clipEnd="0:00:43.080" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p024">
+                <text src="../xhtml/lijinoPismo.xhtml#f024"/>
+                <audio clipBegin="0:00:43.080" clipEnd="0:00:45.020" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p025">
+                <text src="../xhtml/lijinoPismo.xhtml#f025"/>
+                <audio clipBegin="0:00:45.020" clipEnd="0:00:46.220" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p026">
+                <text src="../xhtml/lijinoPismo.xhtml#f026"/>
+                <audio clipBegin="0:00:46.220" clipEnd="0:00:48.120" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p027">
+                <text src="../xhtml/lijinoPismo.xhtml#f027"/>
+                <audio clipBegin="0:00:48.120" clipEnd="0:00:50.030" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p028">
+                <text src="../xhtml/lijinoPismo.xhtml#f028"/>
+                <audio clipBegin="0:00:50.030" clipEnd="0:00:51.270" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p029">
+                <text src="../xhtml/lijinoPismo.xhtml#f029"/>
+                <audio clipBegin="0:00:51.270" clipEnd="0:00:53.170" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p030">
+                <text src="../xhtml/lijinoPismo.xhtml#f030"/>
+                <audio clipBegin="0:00:53.170" clipEnd="0:00:55.010" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p031">
+                <text src="../xhtml/lijinoPismo.xhtml#f031"/>
+                <audio clipBegin="0:00:55.010" clipEnd="0:00:57.240" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p032">
+                <text src="../xhtml/lijinoPismo.xhtml#f032"/>
+                <audio clipBegin="0:00:57.240" clipEnd="0:00:59.180" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p033">
+                <text src="../xhtml/lijinoPismo.xhtml#f033"/>
+                <audio clipBegin="0:00:59.180" clipEnd="0:01:01.090" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p034">
+                <text src="../xhtml/lijinoPismo.xhtml#f034"/>
+                <audio clipBegin="0:01:01.090" clipEnd="0:01:03.010" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p035">
+                <text src="../xhtml/lijinoPismo.xhtml#f035"/>
+                <audio clipBegin="0:01:03.010" clipEnd="0:01:04.240" src="lijinoPismo.mp3"/>
+            </par>
+            <par id="p036">
+                <text src="../xhtml/lijinoPismo.xhtml#f036"/>
+                <audio clipBegin="0:01:04.240" clipEnd="0:01:08.250" src="lijinoPismo.mp3"/>
+            </par>
+        </seq>
+    </body>
+</smil>

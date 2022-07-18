@@ -1,0 +1,212 @@
+@charset "UTF-8";
+@namespace "http://www.w3.org/1999/xhtml";
+@namespace epub "http://www.idpf.org/2007/ops";
+@font-face {
+    font-family: 'diavlobold';
+    src: url('../font/diavlo_bold_ii_37-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'hackregular';
+    src: url('../font/hack-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	display: block;
+	line-height: 1.3;
+	margin: 0.7%;
+	padding: 0em;
+	font-family: 'hackregular', serif;
+	font-weight: normal;
+    font-style: normal;
+	padding: 2em 2em 2em 2em;
+	column-gap: 5em;
+}
+div[epub|type="chapter"]{
+	column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+	font-family: 'hackregular', sans-serif;
+    font-weight: normal;
+	font-style: normal;
+}
+.mica{
+	text-align: right;
+	margin-left: 5em;
+}
+p{
+	width: 100%;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count:3;
+	font-family: 'hackregular', sans-serif;
+    font-weight: normal;
+	font-style: normal;
+    column-width: 10em;
+    column-gap: 1em;
+	font-size: 1.2em;
+}
+img, #rastanak{
+	-webkit-column-span: all;
+	-ms-grid-column-span: all; 
+	column-span: all;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count:3;
+	width: 100%;
+	height: 100%;
+}
+.odg{
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+}
+.odg img{
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+}
+.odg p{
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+	font-family: 'hackregular', sans-serif;
+    font-weight: normal;
+	font-style: normal;
+}
+#lijinaKuca, #postarIZec, svg.noc{
+	-webkit-column-span: all;
+	-ms-grid-column-span: all;
+	column-span:all;
+	width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-epub-hypens: none;
+	hyphens: none;
+	font-family: 'diavlobold', sans-serif;
+    font-weight: normal;
+	font-style: normal;
+}
+h2{
+	font-family: 'diavlobold', sans-serif;
+    font-weight: normal;
+	font-style: normal;
+	font-size: 3em
+}
+.-epub-media-overlay-active {
+    background-color: rgb(172, 254, 172);
+    color: black !important;
+	font-weight: bold;
+}
+/* fade out the inactive text */
+html.-epub-media-overlay-playing * {
+    color: darkslategray;
+}
+nav{
+	color: black;
+	text-decoration: none;
+}
+nav a:link{
+	color: black;
+	text-decoration: none;
+}
+nav a:visited{
+	color: black;
+	text-decoration: none;
+}
+nav a:hover{
+	color: black;
+	text-decoration: none;
+}
+nav a:active{
+	color: black;
+	text-decoration: none;
+}
+ol li{
+	list-style: none!important;
+  }
+body#prva{
+	text-align:center;
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+}
+body#prva h1{
+	font-size: 5em;
+	color: red;
+}
+body#prva h2,h3{
+	font-size: 3em
+}
+body#prva h4,h5{
+	font-size: 1.5em
+}
+section#lp p,section#lp object, .caption{
+	column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+	columns: 1;
+	-moz-columns: 1;
+	width: 100%;
+	text-align: center;
+}
+.prase{
+	column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+	columns: 2;
+	-moz-columns: 2;
+	width: 100%;
+}
+.prase p{
+	column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+	columns: 1;
+	-moz-columns: 1;
+	width: 100%;
+}
+.caption{
+	column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+	columns: 1;
+	-moz-columns: 1;
+	width: 100%;
+	text-align: left;
+}
+#jez{
+	width: 50%;
+}
+@media screen and (max-width: 480px) {
+	div[epub|type="chapter"]{
+		column-count: 1;
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		width: 100%;
+	}
+	p,img{
+    column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+	width: 100%;
+	}
+	.prase, .odg{
+		column-count: 1;
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		columns: 1;
+		-moz-columns: 1;
+		width: 100%;
+	}
+	
+	#svgZadnja{
+		width: 400;
+	}
+}
